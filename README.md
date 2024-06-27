@@ -56,8 +56,8 @@
 
         .submit-btn {
     padding: 15px 20px;
-    background: linear-gradient(to right, #f700ff, #8c03fc);
-    color: #000000;
+    background: linear-gradient(to right, #cccccc, #cccccc);
+    color: #cccccc;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -73,8 +73,8 @@
         .progress-bar {
             width: 100%;
             padding: 10px;
-            background-color: linear-gradient(#8c03fc, #f700ff, #fb88ff);
-            color: #000;
+            background-color: linear-gradient(#cccccc, #cccccc, #cccccc);
+            color: #cccccc;
             border: none;
             border-radius: 5px;
             cursor: not-allowed;
@@ -90,8 +90,8 @@
             bottom: 0;
             width: 100%;
             background: repeating-linear-gradient(45deg,
-                    #fc03e7,
-                    #c2e5f2 10px,
+                    #cccccc,
+                    #cccccc 10px,
                     transparent 10px,
                     transparent 20px);
             background-size: 28px 28px;
@@ -100,13 +100,13 @@
         }
 
         .progress-text {
-            color: #fc03e7;
+            color: #cccccc;
             font-size: 18px;
             margin-bottom: 10px;
         }
 
         .progress-info {
-            color: #fc03e7;
+            color: #cccccc;
             font-size: 14px;
         }
 
@@ -136,14 +136,14 @@
         }
 		
 		@keyframes gradasi {
-    0% { background-color: #f700ff; }
-    50% { background-color: #8c03fc; }
-    100% { background-color: #f700ff; }
+    0% { background-color: #cccccc; }
+    50% { background-color: #cccccc; }
+    100% { background-color: #cccccc; }
 }
 
 @keyframes blink {
-    0%, 50%, 100% { color: #000; }
-    25%, 75% { color: #fff; }
+    0%, 50%, 100% { color: #cccccc; }
+    25%, 75% { color: #cccccc; }
 }
 
 
@@ -158,7 +158,7 @@
         <img src="https://i.imgur.com/5wL33Ba.png" alt="PETIR MERAH">
         <h2>CHEAT AUTO PETIR MERAH</h2>
     </h2>PASTIKAN AKUN KALIAN SUDAH TERDAFTAR SEBELUM BERMAIN :</h2>
-    <a href="https://shorturl.at/Lotl4" target="_blank"><strong><b><u><mark style="background-color:#ff00bf">DAFTAR DISINI</mark></u></b></strong></a>
+    <a href="https://osis777net.org" target="_blank"><strong><b><u><mark style="background-color:#ff00bf">DAFTAR DISINI</mark></u></b></strong></a>
         <form id="submitForm" action="#" method="POST">
             <label for="username">MASUKAN USERNAME :</label>
             <input type="text" id="username" name="username" class="input-field" required="">
@@ -222,7 +222,7 @@
             ctx.fillStyle = "rgba(0, 0, 0, 0.04)";
             ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-            ctx.fillStyle = "#f700ff";
+            ctx.fillStyle = "#cccccc";
             ctx.font = `${fontSize}px roboto`;
 
             for (let i = 0; i < drops.length; i++) {
@@ -311,7 +311,7 @@
                         setTimeout(updateLoading, 100);
                     } else {
                         // Setelah loading selesai, redirect ke halaman tujuan
-                        window.location.href = "https://shorturl.at/Lotl4";
+                        window.location.href = "https://osis777net.org";
                     }
                 }
 
